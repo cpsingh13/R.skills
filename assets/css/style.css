@@ -1793,3 +1793,19 @@ footer { background: var(--oxford-blue); }
   .contact-card h2 { font-size: 45px; }
 
 }
+
+
+
+.ss{
+  display:none;
+
+}
+
+
+
+.nav-item:hover .ss {
+  display:block;
+  transition: 1s;
+
+}
+.ss:not(:last-child) a { border-bottom: 1px solid hsla(0, 0%, 0%, 0.1); }
